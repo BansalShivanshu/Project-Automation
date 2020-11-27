@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function create-project() {
-    source ~/Projects/project-automation/.env
+    source ~/<PATH TO PROJECTS FOLDER>/Project-Automation/.env
 
     # make sure one arg was passed
     if [ -z "$1" ]
