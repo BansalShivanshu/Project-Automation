@@ -20,12 +20,6 @@ function create-project() {
         return
     fi
 
-    # # replace whitespaces with '-'
-    # fileName=$1
-    # echo $fileName
-    # fileName=$(tr -s ' ' '-' <<< "$fileName")
-    # echo $fileName
-
     # create a new directory if no prior ones exist
     if [ -d $FILEPATH$1 ]
     then
@@ -33,16 +27,6 @@ function create-project() {
         echo "aborting..."
         return
     fi
-
-    # # set the flag value
-    # FLAG="False"
-    # if [ "$2" ]
-    # then
-    #     if [ $2 == '-p' ]
-    #     then
-    #         FLAG="True"
-    #     fi
-    # fi
 
     # get to the Projects directory
     cd $FILEPATH
