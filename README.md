@@ -7,7 +7,7 @@ These instructions will get you a copy of the project up and running on your loc
 ## Prerequisites
 Should be running a linux based system.\
 Should have python3 installed.\
-Should have personal github access token.\
+Should have personal github access token.
 
 ## Installing
 ```
