@@ -11,7 +11,8 @@ Should have personal github access token.
 
 ## Installing
 ```
-git clone "https://github.com/BansalShivanshu/Project-Automation.git"
+fork the project
+git clone "https://github.com/<Your Github Username>/Project-Automation.git"
 cd Project-Automation"
 Open the .env file and replace values
 Open create.py and replace GitHub credentials
