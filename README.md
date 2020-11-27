@@ -1,12 +1,23 @@
 # Project-Automation
 A shell command for linux systems to automate the project creation process
 
+# What does it do?
+Check if a similar project already exists in Filepath.\
+Check if a similar project already exists on your GitHub.\
+Create a Public or Private GitHub repository.\
+Validates repository creation.\
+Creates new directory in Filepath with a README file.\
+Makes an initial commit and push to remote repository.\
+Launches directory in VisualStudio Code.
+
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ## Prerequisites
 Should be running a linux based system.\
 Should have python3 installed.\
+Should have git installed.\
+Should have VisualCode installed.\
 Should have personal github access token.
 
 ## Installing
